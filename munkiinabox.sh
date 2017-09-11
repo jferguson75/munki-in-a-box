@@ -19,7 +19,7 @@
 
 REPOLOC="/Library/Server/Web/Data/Sites/Default"
 REPONAME="munki_repo"
-REPODIR="${REPOLOC}/${REPONAME}"
+REPODIR="/USer/Shared/munki_repo"
 LOGGER="/usr/bin/logger -t Munki-in-a-Box"
 MUNKILOC="/usr/local/munki"
 WEBROOT="/Library/Server/Web/Data/Sites/Default"
@@ -36,7 +36,7 @@ AUTOPKG="/usr/local/bin/autopkg"
 MAINPREFSDIR="/Library/Preferences"
 ADMINUSERNAME="ladmin"
 SCRIPTDIR="/usr/local/bin"
-HTPASSWD="YouNeedToChangeThis"
+HTPASSWD="ladmin"
 
 
 echo "Welcome to Munki-in-a-Box. We're going to get things rolling here with a couple of tests"'!'
