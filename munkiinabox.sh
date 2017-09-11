@@ -19,7 +19,7 @@
 
 REPOLOC="/Library/Server/Web/Data/Sites/Default"
 REPONAME="munki_repo"
-REPODIR="/USer/Shared/munki_repo"
+REPODIR="/User/Shared/munki_repo"
 LOGGER="/usr/bin/logger -t Munki-in-a-Box"
 MUNKILOC="/usr/local/munki"
 WEBROOT="/Library/Server/Web/Data/Sites/Default"
